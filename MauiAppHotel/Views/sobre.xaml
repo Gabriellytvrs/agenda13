@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.sobre"
+             Title="sobre"
+             Background="Black"
+             NavigationPage.HasNavigationBar="False">
+    
+    <VerticalStackLayout 
+        VerticalOptions="CenterAndExpand"
+               Padding="10"
+               Spacing="10">
+        <Label 
+            Text="Sobre a Desenvolvedora"
+            TextColor="Aqua"
+            FontFamily= "Kalam"
+            FontSize="30"
+           />
+
+
+        <Frame>
+
+
+            <Label Text="A desenvolvedora deste aplicativo é uma estudante do curso técnico de desenvolvimento de sistemas na etec Itaquera 2"
+                   TextColor="White">
+            </Label>
+
+        </Frame>
+        <Button Text="Voltar" Clicked="Button_Clicked" TextColor="Black" />
+    </VerticalStackLayout>
+
+    
+</ContentPage>
